@@ -1,4 +1,5 @@
 //index.js
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const hamburger = document.getElementById('hamburger'); 
 const menu = document.querySelector('.menu'); 
