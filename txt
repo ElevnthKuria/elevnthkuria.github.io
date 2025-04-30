@@ -194,7 +194,7 @@
                             Chatbot development and conversational AI
                         </p> 
                         <p class="small-para"> 
-                            AI-powered Automation and Optimization
+                            
                         </p> 
                     </div> 
                 </div> 
