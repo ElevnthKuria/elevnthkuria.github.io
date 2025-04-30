@@ -1,313 +1,285 @@
 <!DOCTYPE html> 
 <html lang="en"> 
+<head>
+        <title>Kuria Ken</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="HTML5 website template">
+        <meta name="keywords" content="global, template, html, sass, jquery">
+        <meta name="author" content="Bucky Maler">
+        <link rel="stylesheet" href="assets/css/main.css">
+</head>
 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0"> 
-    <title>Kuria Ken Portolio Site</title>
-    <link rel="stylesheet"
-        href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity= 
-"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="responsive.css"> 
-</head> 
 
-<body> 
-    <!-- Navbar header section -->
-    <header class="header"> 
-        <nav class="navbar"> 
-            <div class="logo"> 
-                <h2 class="logo-heading">E11</h2> <!--Kuria Ken-->
-                <!-- <h3 class="logo-subheading">Information Professional | Data Scientist | Web Developer</h3> -->
-            </div> 
-            <div class="hamburger" id="hamburger"> 
-                <i class="fas fa-bars hamburger-icon"></i> 
-                <i class="fas fa-times cross-icon"></i> 
-            </div> 
-            <div class="menu"> 
-                <ul class="menu-list"> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#home"> 
-                            Home 
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#portfolio"> 
-                            Portfolio 
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#about"> 
-                            About 
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#services"> 
-                            Services 
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#contact"> 
-                            Contact Me 
-                        </a> 
-                    </li> 
-                </ul> 
-            </div> 
-        </nav> 
-    </header> 
+    <body>
 
-    <!-- Main hero banner -->
-    <section id="home" class="hero">
-        
-        <div class="intro"> 
-            <div class="headings"> 
-                <h3 class="greet-heading1">Hello, </h3> 
-                <h1 class="my-heading1">I'm Kuria</h1> 
-                <h4 class="sub-heading1"> 
-                    A Freelance Data Scientist and Web Developer. 
-                </h4> 
-            </div> 
-            <div class="intro-buttons"> 
-                <button class="btn common-btn">Hire Me</button> 
-                <button class="btn ghost-btn">Get Resume</button> 
-            </div> 
-        </div> 
-    </section> 
 
-    <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio"> 
-        <div class="portfolio-heading"> 
-            <h1 class="my-heading text-center">Featured Portfolio</h1> 
-            
-        </div> 
-    
-    <main class="portfolio-content">
-        <!-- <div class="card">
-          <pixel-canvas></pixel-canvas>
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" viewBox="0 0 256 256">
-            <path d="M216,42H40A14,14,0,0,0,26,56V200a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42ZM40,54H216a2,2,0,0,1,2,2V98H38V56A2,2,0,0,1,40,54ZM38,200V110H98v92H40A2,2,0,0,1,38,200Zm178,2H110V110H218v90A2,2,0,0,1,216,202Z"></path>
-          </svg>
-          <button>Layout</buton>
-        </div>
-       -->
-       <div class="my-row"> 
-        <div class="card" style="--active-color: #e0f2fe">
-          <pixel-canvas data-gap="10" data-speed="25" data-colors="#e0f2fe, #7dd3fc, #0ea5e9"></pixel-canvas>
-          <h2>Github</h2>
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentcolor" viewBox="0 0 256 256"></svg> -->
-            <path d="M67.84,92.61,25.37,128l42.47,35.39a6,6,0,1,1-7.68,9.22l-48-40a6,6,0,0,1,0-9.22l48-40a6,6,0,0,1,7.68,9.22Zm176,30.78-48-40a6,6,0,1,0-7.68,9.22L230.63,128l-42.47,35.39a6,6,0,1,0,7.68,9.22l48-40a6,6,0,0,0,0-9.22Zm-81.79-89A6,6,0,0,0,154.36,38l-64,176A6,6,0,0,0,94,221.64a6.15,6.15,0,0,0,2,.36,6,6,0,0,0,5.64-3.95l64-176A6,6,0,0,0,162.05,34.36Z"></path>
-          </svg>
-          <button>Github Code</buton>
-        </div>
-        </div>
-
-        <div class="my-row"> 
-            <div class="card" style="--active-color: #fef08a">
-            <pixel-canvas data-gap="3" data-speed="20" data-colors="#fef08a, #fde047, #eab308"></pixel-canvas>
-            <h2>DataCamp</h2>
-                <path d="M180,146H158V110h22a34,34,0,1,0-34-34V98H110V76a34,34,0,1,0-34,34H98v36H76a34,34,0,1,0,34,34V158h36v22a34,34,0,1,0,34-34ZM158,76a22,22,0,1,1,22,22H158ZM54,76a22,22,0,0,1,44,0V98H76A22,22,0,0,1,54,76ZM98,180a22,22,0,1,1-22-22H98Zm12-70h36v36H110Zm70,92a22,22,0,0,1-22-22V158h22a22,22,0,0,1,0,44Z"></path>
-            </svg>
-            <button>DataCamp</buton>
-            </div>
-        </div>
-
-        <div class="my-row"> 
-        <div class="card" style="--active-color: #fef08a">
-            <pixel-canvas data-gap="3" data-speed="20" data-colors="#DAF7A6 , #581845, #00ff27 "></pixel-canvas>
-            <h2>Web Development</h2>
-              <path d="M180,146H158V110h22a34,34,0,1,0-34-34V98H110V76a34,34,0,1,0-34,34H98v36H76a34,34,0,1,0,34,34V158h36v22a34,34,0,1,0,34-34ZM158,76a22,22,0,1,1,22,22H158ZM54,76a22,22,0,0,1,44,0V98H76A22,22,0,0,1,54,76ZM98,180a22,22,0,1,1-22-22H98Zm12-70h36v36H110Zm70,92a22,22,0,0,1-22-22V158h22a22,22,0,0,1,0,44Z"></path>
-            </svg>
-            <button>Web Development</buton>
-          </div>      
-        </div>
-
-        <div class="my-row"> 
-            <div class="card" style="--active-color: #fecdd3">
-            <pixel-canvas data-gap="6" data-speed="80" data-colors="#fec, #fda4af, #e11d48" data-no-focus></pixel-canvas>
-            <h2>LeverageAI</h2>
-                <path d="M222,67.34a33.81,33.81,0,0,0-10.64-24.25C198.12,30.56,176.68,31,163.54,44.18L142.82,65l-.63-.63a22,22,0,0,0-31.11,0l-9,9a14,14,0,0,0,0,19.81l3.47,3.47L53.14,149.1a37.81,37.81,0,0,0-9.84,36.73l-8.31,19a11.68,11.68,0,0,0,2.46,13A13.91,13.91,0,0,0,47.32,222,14.15,14.15,0,0,0,53,220.82L71,212.92a37.92,37.92,0,0,0,35.84-10.07l52.44-52.46,3.47,3.48a14,14,0,0,0,19.8,0l9-9a22.06,22.06,0,0,0,0-31.13l-.66-.65L212,91.85A33.76,33.76,0,0,0,222,67.34Zm-123.61,127a26,26,0,0,1-26,6.47,6,6,0,0,0-4.17.24l-20,8.75a2,2,0,0,1-2.09-.31l9.12-20.9a5.94,5.94,0,0,0,.19-4.31A25.91,25.91,0,0,1,56,166h70.78ZM138.78,154H65.24l48.83-48.84,36.76,36.78Zm64.77-70.59L178.17,108.9a6,6,0,0,0,0,8.47l4.88,4.89a10,10,0,0,1,0,14.15l-9,9a2,2,0,0,1-2.82,0l-60.69-60.7a2,2,0,0,1,0-2.83l9-9a10,10,0,0,1,14.14,0l4.89,4.89a6,6,0,0,0,4.24,1.75h0a6,6,0,0,0,4.25-1.77L172,52.66c8.57-8.58,22.51-9,31.07-.85a22,22,0,0,1,.44,31.57Z"></path>
-            </svg>
-            <button>LeverageAI</buton>
-            </div> 
-        </div>
-        <div class="portfolio-btns">
-            <button class="btn portfolio-btn ghost-btn">View More</button>
-        </div>
-    </main> 
-    
-
-    <!-- About Section -->
-    <section id="about" class="about"> 
-        <div class="about-text"> 
-            <h1 class="my-heading">About Me</h1> 
-            <p class="lead-para"> 
-                I am a data scientist and machine learning engineer with over three years of experience in business intelligence, data analytics, and artificial intelligence. My expertise 
-                lies in Python, SQL, and machine learning frameworks such as TensorFlow and PyTorch. I am passionate about transforming raw data into actionable insights through data preparation,
-                analysis, modeling, and visualization. With a strong foundation in cloud computing, data management, and API integrations, I have successfully deployed AI-driven solutions in 
-                various industries, including fintech and marketing.
-            </p> 
-        </div> 
-        <div class="about-image"> 
-            <img src="./assets/" alt="About Image"> 
-        </div> 
-    </section> 
-
-    <!-- Services Section -->
-    <section class="services" id="services"> 
-        <div class="services-heading"> 
-            <h1 class="my-heading text-center">My Services</h1> 
-        </div> 
-        <div class="services-content"> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-paint-brush"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">Web & Graphic Design</h3> 
-                        <p class="small-para"> 
-                            WebApp and Website Development
-                        </p> 
-                        <p class="small-para"> 
-                            Designs for Social Media
-                        </p> 
-                        <p class="small-para"> 
-                            SEO Optimization
-                        </p>
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-chart-line"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">Data Science & Machine Learning Solutions</h3> 
-                        <p class="small-para"> 
-                            Data visualization and business intelligence reporting
-                        </p> 
-                        <p class="small-para"> 
-                            Data Visualization and Business Intelligence reporting
-                        </p> 
-                        <p class="small-para"> 
-                            Predictive analytics and forecasting models
-                        </p> 
-                        <p class="small-para"> 
-                            Cloud & DevOps Solutions
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fa-solid fa-code"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> AI & NLP Development</h3>
-                        <p class="small-para"> 
-                            Chatbot development and conversational AI
-                        </p> 
-                        <p class="small-para"> 
-                            AI-powered Automation and Optimization
-                        </p> 
-                    </div> 
-                </div> 
-                
-            </div> 
-        </div> 
-    </section> 
-
-    <!-- Contact me section -->
-    <section class="contact" id="contact"> 
-        <div class="contact-heading"> 
-            <h1 class="my-heading text-center">Contact Me</h1> 
-        </div> 
-        <div class="contact-content"> 
-            <div class="contact-form-container"> 
-                <h1 class="greet-heading">Get In Touch</h1> 
-                <form class="contact-form"> 
-                    <input class="form-controls" type="text"
-                        placeholder="Your Name"> 
-                    <input class="form-controls" type="text"
-                        placeholder="Your Email"> 
-                    <input class="form-controls" type="text"
-                        placeholder="Your Phone"> 
-                    <textarea class="form-controls"
-                            placeholder="Write your message"
-                            name="message" id="" cols="30"
-                            rows="10"> 
-                    </textarea> 
-                    <input class="form-btn btn common-btn"
-                        type="submit" value="Send Message"> 
-                </form> 
-            </div> 
-            <div class="contact-details"> 
-                <h1 class="greet-heading">My Contact Details</h1> 
-                <div class="details"> 
-                    <h5 class="contact-heading">EMAIL</h5> 
-                    <p class="contact-text">Official: kuria3kuria@outlook.com</p> 
-                    <p class="contact-text">Freelance/ Collaborations: elevnthkuria@gmail.com</p> 
-
-                </div> 
-                <div class="details"> 
-                    <h5 class="contact-heading">PHONE</h5> 
-                    <p class="contact-text">+254 740 146 414</p> 
-                    <h5 class="contact-heading">WHATS APP</h5> 
-                    <p class="contact-text">+254 740 146 414</p> 
-                </div> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
-
-    <!-- Footer section -->
-    <footer class="footer"> 
-        <div class="footer-content text-center"> 
-            <h4> 
-                Copyright © 2025 All rights reserved | 
-                This portfolio website template is created 
-                by Kuria Ken | ELAIT INC. 
-            </h4> 
-            <div class="social-links"> 
-                <div class="footer-menu"> 
-                    <ul class="footer-menu-list"> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-facebook-f"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-twitter"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-instagram"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-linkedin-in"></i> 
-                            </a> 
-                        </li> 
-                    </ul> 
-                </div> 
-            </div> 
-        </div> 
-    </footer> 
-
-    <script src= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
-        integrity= 
-"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"> 
-        
-    </script> 
-    <script src="script.js"></script>
+<!--     
+    <!-- notification for small viewports and landscape oriented smartphones -->
+    <div class="device-notification">
+        <a class="device-notification--logo" href="#0">
+          <img src="assets/img/logo.png" alt="Global">
+          <p>KURIA</p>
+        </a>
+        <p class="device-notification--message">Kuria Ken has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+      </div>
   
-    
-</body>
-</html>
+        
+        <div class="perspective effect-rotate-left">
+          <div class="container"><div class="outer-nav--return"></div>
+            <div id="viewport" class="l-viewport">
+              <div class="l-wrapper">
+                <header class="header">
+                  <a class="header--logo" href="#0">
+                    <img src="assets/img/logo.png" alt="Global">
+                    <p>Global</p>
+                  </a>
+                  <button class="header--cta cta">Hire Us</button>
+                  <div class="header--nav-toggle">
+                    <span></span>
+                  </div>
+                </header>
+                <nav class="l-side-nav">
+                  <ul class="side-nav">
+                    <li class="is-active"><span>Home</span></li>
+                    <li><span>Works</span></li>
+                    <li><span>About</span></li>
+                    <li><span>Contact</span></li>
+                    <li><span>Hire us</span></li>
+                  </ul>
+                </nav>
+                <ul class="l-main-content main-content">
+                  <li class="l-section section section--is-active">
+                    <div class="intro">
+                      <div class="intro--banner">
+                        <h1>Your next<br>interactive<br>experience</h1>
+                        <button class="cta">Hire Us
+                          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                          <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                            <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                          </g>
+                          </svg>
+                          <span class="btn-background"></span>
+                        </button>
+                        <img src="assets/img/introduction-visual.png" alt="Welcome">
+                      </div>
+                      <div class="intro--options">
+                        <a href="#0">
+                          <h3>Metiew &amp; Smith</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                        </a>
+                        <a href="#0">
+                          <h3>Fantasy interactive</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                        </a>
+                        <a href="#0">
+                          <h3>Paul &amp; shark</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="l-section section">
+                    <div class="work">
+                      <h2>Selected work</h2>
+                      <div class="work--lockup">
+                        <ul class="slider">
+                          <li class="slider--item slider--item-left">
+                            <a href="#0">
+                              <div class="slider--item-image">
+                                <img src="assets/img/work-victory.jpg" alt="Victory">
+                              </div>
+                              <p class="slider--item-title">Victory</p>
+                              <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                            </a>
+                          </li>
+                          <li class="slider--item slider--item-center">
+                            <a href="#0">
+                              <div class="slider--item-image">
+                                <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
+                              </div>
+                              <p class="slider--item-title">Metiew &amp; Smith</p>
+                              <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                            </a>
+                          </li>
+                          <li class="slider--item slider--item-right">
+                            <a href="#0">
+                              <div class="slider--item-image">
+                                <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                              </div>
+                              <p class="slider--item-title">Alex Nowak</p>
+                              <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                            </a>
+                          </li>
+                        </ul>
+                        <div class="slider--prev">
+                          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                          viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                          <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                            <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                            c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                            c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                          </g>
+                          </svg>
+                        </div>
+                        <div class="slider--next">
+                          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                          <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                            <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                          </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="l-section section">
+                    <div class="about">
+                      <div class="about--banner">
+                        <h2>We<br>believe in<br>passionate<br>people</h2>
+                        <a href="#0">Career
+                          <span>
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                            <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                              <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                            </g>
+                            </svg>
+                          </span>
+                        </a>
+                        <img src="assets/img/about-visual.png" alt="About Us">
+                      </div>
+                      <div class="about--options">
+                        <a href="#0">
+                          <h3>Winners</h3>
+                        </a>
+                        <a href="#0">
+                          <h3>Philosophy</h3>
+                        </a>
+                        <a href="#0">
+                          <h3>History</h3>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="l-section section">
+                    <div class="contact">
+                      <div class="contact--lockup">
+                        <div class="modal">
+                          <div class="modal--information">
+                            <p>Pawia 5, 31-154 Kraków, Poland</p>
+                            <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
+                            <a href="tel:+148126287560">+48 12 628 75 60</a>
+                          </div>
+                          <ul class="modal--options">
+                            <li><a href="#0">Bēhance</a></li>
+                            <li><a href="#0">dribbble</a></li>
+                            <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="l-section section">
+                    <div class="hire">
+                      <h2>You want us to do</h2>
+                      <!-- checkout formspree.io for easy form setup -->
+                      <form class="work-request">
+                        <div class="work-request--options">
+                          <span class="options-a">
+                            <input id="opt-1" type="checkbox" value="app design">
+                            <label for="opt-1">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                              <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                                <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                              </g>
+                              </svg>
+                              App Design
+                            </label>
+                            <input id="opt-2" type="checkbox" value="graphic design">
+                            <label for="opt-2">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                              <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                                <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                              </g>
+                              </svg>
+                              Graphic Design
+                            </label>
+                            <input id="opt-3" type="checkbox" value="motion design">
+                            <label for="opt-3">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                              <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                                <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                              </g>
+                              </svg>
+                              Motion Design
+                            </label>
+                          </span>
+                          <span class="options-b">
+                            <input id="opt-4" type="checkbox" value="ux design">
+                            <label for="opt-4">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                              <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                                <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                              </g>
+                              </svg>
+                              UX Design
+                            </label>
+                            <input id="opt-5" type="checkbox" value="webdesign">
+                            <label for="opt-5">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                              <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                                <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                              </g>
+                              </svg>
+                              Webdesign
+                            </label>
+                            <input id="opt-6" type="checkbox" value="marketing">
+                            <label for="opt-6">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                              <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                                <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                              </g>
+                              </svg>
+                              Marketing
+                            </label>
+                          </span>
+                        </div>
+                        <div class="work-request--information">
+                          <div class="information-name">
+                            <input id="name" type="text" spellcheck="false">
+                            <label for="name">Name</label>
+                          </div>
+                          <div class="information-email">
+                            <input id="email" type="email" spellcheck="false">
+                            <label for="email">Email</label>
+                          </div>
+                        </div>
+                        <input type="submit" value="Send Request">
+                      </form>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <ul class="outer-nav">
+            <li class="is-active">Home</li>
+            <li>Works</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Hire us</li>
+          </ul>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+        <script src="assets/js/functions-min.js"></script>
+        </body>
+        </html>
+        
